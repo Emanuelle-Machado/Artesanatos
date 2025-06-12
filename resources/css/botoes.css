@@ -1,0 +1,68 @@
+/* Estilização geral para botões */
+
+button,
+.btn {
+    display: inline-block;
+    padding: 0.6em 1.5em;
+    font-size: 1rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+/* Botão de cadastro (ex: salvar, adicionar) */
+.btn-cadastro {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-cadastro:hover,
+.btn-cadastro:focus {
+    background: #218838;
+}
+
+/* Botão de edição */
+.btn-editar {
+    background: #ffc107;
+    color: #212529;
+}
+
+.btn-editar:hover,
+.btn-editar:focus {
+    background: #e0a800;
+}
+
+/* Botão de exclusão */
+.btn-excluir {
+    background: #dc3545;
+    color: #fff;
+}
+
+.btn-excluir:hover,
+.btn-excluir:focus {
+    background: #c82333;
+}
+
+/* Botão de redirecionamento (ex: voltar, ver mais) */
+.btn-redirect {
+    background: #007bff;
+    color: #fff;
+}
+
+.btn-redirect:hover,
+.btn-redirect:focus {
+    background: #0056b3;
+}
+
+/* Botão desabilitado */
+button:disabled,
+.btn:disabled {
+    background: #ccc;
+    color: #888;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
