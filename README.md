@@ -21,3 +21,52 @@ Este projeto é uma API RESTful desenvolvida com Laravel para gerenciar vendas, 
 
 ```bash
 git clone https://github.com/seu-usuario/seu-projeto.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd seu-projeto
+```
+
+3. Instale as dependências:
+
+```bash
+composer install
+```
+
+4. Configure o ambiente:
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+5. Configure o banco de dados no arquivo .env:
+
+```.env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+```
+
+6. Rode as migrations:
+
+```bash
+php artisan migrate
+```
+
+7. (Opcional) Popular com dados de exemplo (se houver seeders):
+
+```bash
+php artisan db:seed
+```
+
+8. Inicie o servidor:
+
+```bash
+php artisan serve
+```
