@@ -70,3 +70,32 @@ php artisan db:seed
 ```bash
 php artisan serve
 ```
+
+## Endpoints disponíveis
+
+### Produtos
+
+| Método | Endpoint             | Função                   |
+| ------ | -------------------- | ------------------------ |
+| GET    | `/api/produtos`      | Listar todos os produtos |
+| POST   | `/api/produtos`      | Criar novo produto       |
+| PUT    | `/api/produtos/{id}` | Atualizar produto        |
+| DELETE | `/api/produtos/{id}` | Excluir produto          |
+
+### Vendas
+
+| Método | Endpoint           | Função                 |
+| ------ | ------------------ | ---------------------- |
+| GET    | `/api/vendas`      | Listar todas as vendas |
+| POST   | `/api/vendas`      | Criar nova venda       |
+| PUT    | `/api/vendas/{id}` | Atualizar venda        |
+| DELETE | `/api/vendas/{id}` | Excluir venda          |
+
+### Categorias
+
+| Método | Endpoint               | Função                      |
+| ------ | ---------------------- | --------------------------- |
+| GET    | `/api/categorias`      | Listar todas as categorias  |
+| POST   | `/api/categorias`      | Criar nova categorias       |
+| PUT    | `/api/categorias/{id}` | Atualizar categorias        |
+| DELETE | `/api/categorias/{id}` | Excluir categorias          |
