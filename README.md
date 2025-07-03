@@ -1,8 +1,10 @@
 # Sistema de Vendas - Laravel API
 
-Este projeto é uma API RESTful desenvolvida com Laravel para gerenciar vendas, produtos e usuários.
+Este projeto é um estudo da máteria de desenvolvimento backend 2, ele tem como objetivo usar da linguagem PHP e do framework Laravel para criar múltiplos CRUDS, com o uso do Xampp para o MySQL, é feito a relação de tabelas para aplicação, além de implementar uma API na aplicação.
 
-## Tecnologias Utilizadas
+O objetivo deste projeto é um sistema voltado aos artesãos que gosteriam de exibir e vender seu trabalho. É possível de manter um cadastro de seus produtos e suas categorias, além de gerenciar suas vendas aos usuários do sistema. É também colocado uma API RESTful desenvolvida com Laravel para esse gerenciamento, permitindo a conexão por meio de url de outros sistemas. 
+
+## Stack Utilizada
 
 - PHP 8.x
 - Laravel 10.x
@@ -17,14 +19,6 @@ Este projeto é uma API RESTful desenvolvida com Laravel para gerenciar vendas, 
 - Exibição de relatórios
 - dashboard com informações do sistema
 - Listagem e detalhamento de usuários/clientes
-
-## Futuras melhorias e adições
-
-- Cadastro de tipos de usuário diferentes, admin e cliente
-- Acesso a áreas diferentes do sistema dependendo do tipo de usuário
-- Adição de imagens aos produtos
-- Sessão de display de produtos para os clientes
-- Estilização geral do sistema
 
 ## Instalação
 
@@ -120,4 +114,14 @@ php artisan serve
 | PUT    | `/api/users/{id}`      | Atualizar usuários          |
 | DELETE | `/api/users/{id}`      | Excluir usuários            |
 
+## Futuras melhorias e adições
 
+- Cadastro de tipos de usuário diferentes, admin e cliente
+- Acesso a áreas diferentes do sistema dependendo do tipo de usuário
+- Adição de imagens aos produtos
+- Sessão de display de produtos para os clientes
+- Estilização geral do sistema
+
+## Aprendizados
+
+Neste projeto aprendi mais sobre o uso de Laravel e PHP para o gerenciamento de informações. Além de aprender a utilização e integração de uma API.
