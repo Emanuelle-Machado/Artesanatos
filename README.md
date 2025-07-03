@@ -12,8 +12,19 @@ Este projeto é uma API RESTful desenvolvida com Laravel para gerenciar vendas, 
 ## Funcionalidades
 
 - Cadastro, edição, listagem e exclusão de **Produtos**
-- Cadastro, edição, listagem e exclusão de **Usuários**
+- Cadastro, edição, listagem e exclusão de **Usuários/Clientes**
 - Cadastro, listagem e exclusão de **Vendas**, com cálculo de valor total baseado na quantidade e no preço do produto
+- Exibição de relatórios
+- dashboard com informações do sistema
+- Listagem e detalhamento de usuários/clientes
+
+## Futuras melhorias e adições
+
+- Cadastro de tipos de usuário diferentes, admin e cliente
+- Acesso a áreas diferentes do sistema dependendo do tipo de usuário
+- Adição de imagens aos produtos
+- Sessão de display de produtos para os clientes
+- Estilização geral do sistema
 
 ## Instalação
 
@@ -99,3 +110,14 @@ php artisan serve
 | POST   | `/api/categorias`      | Criar nova categorias       |
 | PUT    | `/api/categorias/{id}` | Atualizar categorias        |
 | DELETE | `/api/categorias/{id}` | Excluir categorias          |
+
+### Usuários
+
+| Método | Endpoint               | Função                      |
+| ------ | ---------------------- | --------------------------- |
+| GET    | `/api/users`           | Listar todas os usuários    |
+| POST   | `/api/users`           | Criar novo usuário          |
+| PUT    | `/api/users/{id}`      | Atualizar usuários          |
+| DELETE | `/api/users/{id}`      | Excluir usuários            |
+
+
